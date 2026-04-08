@@ -8,22 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="src\modules\" />
-    <Folder Include="src\modules\provider\" />
-    <Folder Include="src\modules\provider\application\" />
-    <Folder Include="src\modules\provider\application\interfaces\" />
-    <Folder Include="src\modules\provider\application\services\" />
-    <Folder Include="src\modules\provider\application\useCases\" />
-    <Folder Include="src\modules\provider\domain\" />
-    <Folder Include="src\modules\provider\domain\aggregate\" />
-    <Folder Include="src\modules\provider\domain\repositories\" />
-    <Folder Include="src\modules\provider\domain\valueObject\" />
-    <Folder Include="src\modules\provider\infrastructure\" />
-    <Folder Include="src\modules\provider\infrastructure\entity\" />
-    <Folder Include="src\modules\provider\infrastructure\repository\" />
+    <Folder Include="src\modules\provider\Application\" />
+    <Folder Include="src\modules\provider\Application\Interfaces\" />
+    <Folder Include="src\modules\provider\Application\Services\" />
+    <Folder Include="src\modules\provider\Application\UseCases\" />
+    <Folder Include="src\modules\provider\Infrastructure\" />
+    <Folder Include="src\modules\provider\Infrastructure\entity\" />
+    <Folder Include="src\modules\provider\Infrastructure\repository\" />
     <Folder Include="src\modules\provider\UI\" />
     <Folder Include="src\shared\configurations\" />
     <Folder Include="src\shared\context\" />
+    <Folder Include="src\shared\contracts\" />
   </ItemGroup>
 
   <ItemGroup>
