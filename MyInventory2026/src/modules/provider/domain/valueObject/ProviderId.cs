@@ -1,6 +1,22 @@
-namespace MyInventory2026.src.modules.provider.domain.valueObject;
+namespace MyInventory2026.src.modules.provider.Domain.valueObject;
 
-public record class ProviderId
+public sealed record ProviderId
 {
+    public string Value{get;}
 
+    private ProviderId(string value)
+    {
+        Value =value;
+    }
+
+    public static ProviderId Create(string value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            throw new ArgumentException("Provider cannot be empty",nameof(value));
+        }
+        return new ProviderId(value.Trim());
+    }
+    public override string ToString()=> Value;
+    
 }
