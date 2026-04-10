@@ -8,6 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="src\modules\Product\" />
+    <Folder Include="src\modules\Product\Application\" />
+    <Folder Include="src\modules\Product\Application\Interfaces\" />
+    <Folder Include="src\modules\Product\Application\Services\" />
+    <Folder Include="src\modules\Product\Application\UseCases\" />
+    <Folder Include="src\modules\Product\Domain\" />
+    <Folder Include="src\modules\Product\Domain\aggregate\" />
+    <Folder Include="src\modules\Product\Domain\Repositories\" />
+    <Folder Include="src\modules\Product\Domain\valueObject\" />
+    <Folder Include="src\modules\Product\Infrastructure\" />
+    <Folder Include="src\modules\Product\Infrastructure\entity\" />
+    <Folder Include="src\modules\Product\Infrastructure\repository\" />
+    <Folder Include="src\modules\Product\UI\" />
     <Folder Include="src\modules\provider\Application\" />
     <Folder Include="src\modules\provider\Application\Interfaces\" />
     <Folder Include="src\modules\provider\Application\Services\" />
